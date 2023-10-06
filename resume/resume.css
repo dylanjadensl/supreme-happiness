@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+  }
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

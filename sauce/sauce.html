@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Timeline</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #8e6f47;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.post {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.post:nth-child(odd) {
+  margin-right: 30%;
+}
+.post:nth-child(even) {
+  margin-left: 30%;
+}
+</style>
+</head>
+<body>
+<div class='timeline'>
+<div class='post'>
+<h2>Post Title 1</h2>
+<p>Post Date 1</p>
+<p>Post Content 1</p>
+</div>
+<div class='post'>
+<h2>Post Title 2</h2>
+<p>Post Date 2</p>
+<p>Post Content 2</p>
+</div>
+<div class='post'>
+<h2>Post Title 3</h2>
+<p>Post Date 3</p>
+<p>Post Content 3</p>
+</div>
+<!-- Add more posts here -->
+</div>
+</body>
+</html>
